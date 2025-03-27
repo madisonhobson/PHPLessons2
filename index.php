@@ -12,7 +12,9 @@
       <button>SUBMIT</button>
     </form>
     <?php 
+    //This gets something from the URL and passes it into the input
       $name = $_GET['person'];
+      //This takes the name and puts it into the sentnce
       echo $name. " is very smart!";
       
     ?>
