@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel ="stylesheet" type="text/css" href="style.css">
+    <!-- Fixed the href issue -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   </head>
+  <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -37,26 +38,24 @@
     </div>
   </div>
 </nav>
-  <body>
+
     <?php
+      //string
+   $name = "Coding is so fun";
 
-        $x = "6";
-        
-        switch($x){
-            case 1:
-                echo "The solution is 1";
-                break;
-            case "number":
-                 echo "The solution is number";
-                 break;     
-            case 3:
-                echo "The solution is 5";
-                 break;      
-            default:  
-             echo "The solution is non existent";
-            }
+   //Integer
+    $name = 36;
 
+    //float
+    $name = 23.345;
+
+
+    //array
+    $names = array("Alexa", "Vanessa", "Juliett");
+     echo $names['2'];
     ?>
+
+    <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
