@@ -6,6 +6,7 @@
     <title>Bootstrap demo</title>
     <!-- Fixed the href issue -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link rel ="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
