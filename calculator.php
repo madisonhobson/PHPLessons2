@@ -32,7 +32,10 @@
           <a class="nav-link" href="operators.php">operators</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="datatype.pho">data</a>
+          <a class="nav-link" href="datatype.php">data</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="loops.php">loops</a>
         </li>
       </ul>
     </div>

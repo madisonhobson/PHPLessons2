@@ -6,11 +6,8 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel ="stylesheet" type="text/css" href="style.css">
-  </head>
-  <style>body {
-    background-color: rgb(214, 129, 248);
-  }</style>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+</head>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,18 +40,38 @@
     </div>
   </div>
 </nav>
-  <body>
-    <form method ="GET"> 
-      <input type="text" name ="person">
-      <button>SUBMIT</button>
-    </form>
-    <?php 
-    //This gets something from the URL and passes it into the input
-      $name = $_GET['person'];
-      //This takes the name and puts it into the sentnce
-      echo $name. " is very smart!";
-      
-    ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+<body>
+ 
+       
+
+<?php  
+    //while loop
+    $x = 1;
+    while ($x <= 5) {
+        echo "hi there<br>";
+        $x++; 
+    }    
+    //Do while loop
+    $x = 1;
+    do {
+        echo "hi there<br>";
+        $x++;  
+    }
+    while ($x <= 5);
+    //for loop
+    for ($x = 1; $x <= 10; $x++){
+        echo "hi<br>";
+    }
+    //Foreach loop
+    $array = array("Daniel", "Jane", "Jacob", "John", "Mariane");
+
+    foreach ($array as $loopdata){
+        echo "My name is ".$loopdata. "<br>";
+    }
+
+?>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+ 
+</body>
+
 </html>
