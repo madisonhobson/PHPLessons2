@@ -42,6 +42,9 @@
         <li class="nav-item">
           <a class="nav-link" href="functions.php">functions</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="header.php">headers</a>
+        </li>
       </ul>
     </div>
   </div>
