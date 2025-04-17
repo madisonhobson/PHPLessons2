@@ -46,6 +46,10 @@
         <li class="nav-item">
           <a class="nav-link" href="header.php">headers</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="superglobals.php">superglobals</a>
+        </li>
+      </ul>
       </ul>
     </div>
   </div>

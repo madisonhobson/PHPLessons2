@@ -51,17 +51,24 @@
         <li class="nav-item">
           <a class="nav-link" href="header.php">headers</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="superglobals.php">superglobals</a>
+        </li>
+      </ul>
       </ul>
     </div>
   </div>
 </nav>
 </header>
-    
-<section> 
-  <div class="someMainContent">
-    <h1>Hi There</hi>
-</div>
-</section>
+<?php
+$_session['username'] = "Madison"; // Set a session variable with a name and value
+echo $_session['username']; // Output the value of the session variable
+
+if (!isset($_session['username'])) {
+    echo " you are not logged in.";
+} else {
+    echo " you are logged in.";
+
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
